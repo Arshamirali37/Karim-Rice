@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contanier {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/photo-1704972269889-f0fdd7f0e7c3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Home page & Navbar Start*/
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 30%;
+    background: orange;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: -20px;
+    position: relative;
+    left: -250px;
+    margin-left: 90px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+    transition: 0.5s ease;
+    margin-left: 50px;
+    padding: 10px 18px;
+    border-radius: 35px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: gold;
+    color: rgb(94, 12, 28);
+    transform: translateX(50px);
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+    margin-left: 60px;
+}
+
+h1 {
+    color: white;
+    margin-left: 50px;
+    font-size: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h1 span {
+    color: gold;
+}
+
+h1:hover {
+    transform: translatey(-5px);
+    color: gold;
+}
+
+h1 span:hover{
+    color: rgb(255, 253, 253);
+}
+
+p {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    line-height: 17px;
+letter-spacing: 3px; 
+    /* font-weight: 700; */
+}
+
+button {
+    width: 180px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-size: 12px;
+    padding: 12px 0;
+    border: 0;
+    margin-top: 30px;
+    margin-left: 220px;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+    transform: translateX(30px);
+}
+
+.card {
+    width: 250px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.card1 {
+background-image: url(Images/360_F_227945291_wi1Dyx1AxOZECPnaugIem7qZTtvCAGbx-removebg-preview.png);
+background-size: cover;
+width: 400px;
+margin-top: 260px;
+background-repeat: no-repeat;
+
+}
+
+.card2 {
+background-image: url(Images/biryani.jpg);
+background-size: cover;
+width: 400px;
+margin-top: 10px;
+background-repeat: no-repeat;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* Home page & Navbar End */
+
+
+/* About page Start */
+.about-section {
+    padding: 120px 0;
+    background: linear-gradient(265deg, #856f5b, #A9A8AA);
+}
+
+.about-section .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-section .about-image-wrapper .about-image {
+    width: 500px;
+    height: 500px;
+
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+
+.about-image:hover {
+    transform: translateY(-30px)
+}
+
+.about-section .about-details .section-title {
+    padding: 0
+}
+
+.about-section .about-details {
+    max-width: 60%;
+}
+
+.about-section .about-details .text {
+    line-height: 30px;
+    margin: 50px 50px 30px;
+    text-align: center;
+    font-size: 1.12rem;
+    color: #000;
+}
+
+.about-section .social-link-list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.about-section .social-link-list .social-link {
+    color: rgb(94, 12, 28);
+    font-size: 2rem;
+    transition: 0.2s ease;
+}
+
+.about-section .social-link-list .social-link:hover {
+    color: rgb(253, 139, 0);
+}
+
+/* About-Us Page End */
+
+
+
+/* Product Page Start */
+.section-product {
+    background: linear-gradient(195deg,#79695b, #6F6B6F);
+}
+
+.Product-section {
+    padding: 80px 0 100px;    
+}
+
+.product-padding {
+    padding-top: 40px;
+    color: #000000;
+}
+
+.cardproduct {
+    box-shadow: 0 5px 10px 0 #1B1816;
+    max-width: 300px;
+    margin-left: 100px;
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: arial;
+    background-color: #cfcccc;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.cardproduct:hover {
+    transform: translateY(-4.5px)
+}
+
+.Product-heading {
+    font-size: 30px;
+    color: black;
+    padding-top: 30px;
+    margin-left: -10px;
+    transition: 0.5s
+}
+
+.Product-heading:hover {
+    transform: translateY(0px)
+}
+
+.product-para {
+    color: #000;
+    padding-top: 13px;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+
+.product-card {
+    width: 180px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-size: 12px;
+    border: 0;
+    margin-top: 30px;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+/* Product Page End */
+
+
+/* Contact Page  Start*/
+.contact-container {
+    max-width: 1700px;
+    max-height: 800px;
+    background-color: #4ff58f;
+    padding: 30px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.contact-container h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #000000;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #050505;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #6b73ff;
+}
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 13px;
+    margin-top: 5px;
+    display: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6b73ff;
+    border: none;
+    border-radius: 5px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #06f893;
+}
+
+.contact{
+    background: linear-gradient(165deg, #C8C9CC, #473123);
+}
+
+.Contacth1{
+    font-size: 40px;
+margin-left: -10px;
+}
+/* Contact Page End */
+
+
+/* Footer Page Start */
+.footer {
+    color: #f1f1f1;
+    background: linear-gradient(135deg, #1B1816, #2F2017);
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    color: #FFD700;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    margin-left: -10PX;
+}
+
+.scroll-top {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #FFD700;
+    border: none;
+    color: #333;
+    font-size: 14px;
+    margin-left: -20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.scroll-top:hover {
+    background-color: #FFA500;
+}
+
+/* Footer Page End */
+
+
+
+
+
+
+
